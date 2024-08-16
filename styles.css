@@ -1,0 +1,42 @@
+body{
+    background-image: url(madrid.jpg) ;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    color: rgb(255, 251, 0);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+  .flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .flexl{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
