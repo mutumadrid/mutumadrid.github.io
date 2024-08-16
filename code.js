@@ -1,2 +1,2 @@
-var audio = new Audio('song.mp3');
-document.onload =  audio.play();
+var audio = new Audio('gol.mp3');
+document.getElementById('football').addEventListener('click', () => audio.play());
