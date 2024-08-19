@@ -1,5 +1,6 @@
 body{
-    background-image: url(madrid.jpg) ;
+    background-image: url(bel.jpg);
+    background-position: center;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -31,7 +32,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .flexl{
     width: 100%;
